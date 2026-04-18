@@ -1,0 +1,229 @@
+
+@media screen and (min-width : 992px) {
+    
+nav a.active::before{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+
+nav li a{
+    transition: all .3s ease !important;
+    position: relative;
+}
+nav li a:hover{
+    color: var(--primary-color) !important;
+}
+
+nav li a::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: 0;
+    transition: all .3s ease;
+    
+}
+nav li a:hover::before{
+    width: 85%;
+}
+
+/* head */
+
+ .home{
+    background-image: linear-gradient(rgba(80, 35, 159, 0.7) , rgba(94, 39, 189, 0.7)) ,  url(../Images/hero-bg-img.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.home header h2{
+    font-size: 3.75rem !important;
+    line-height: 75px !important;
+
+}
+
+.home .container{
+    width: 70% !important;
+}
+
+
+/* properity section */
+
+.properity header h2 , .services header h2 , .testimonials header h2 , .faq header h2 , .contact header h2 {
+    font-size: 3rem !important;
+}
+
+.width{
+    width: 57% !important;
+    margin: auto !important;
+}
+
+
+.displayyy{
+    display: flex !important;
+    flex-direction: row !important;
+    column-gap: 15px !important;
+    text-align: start !important;
+    align-items: center !important;
+    align-content: center !important;
+}
+
+.carousel-inner{
+    width: 85% !important;
+}
+
+
+.photots{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.static-item {
+        position: static !important;
+    }
+
+    
+    .static-item .dropdown-menu {
+        left: 0% !important;
+        right: 0 !important;
+        width: 100% !important; 
+        margin-top: 0;
+        top: 100%;
+    }
+
+
+    .back{
+      background-image: linear-gradient(rgba(80, 35, 159, 0.6) , rgba(94, 39, 189, 0.7)) ,  url(../Images/new-york.jpeg) ;
+      height: 60px;
+      width: 100%;
+      background-size: cover;
+    background-position: center;
+
+}
+.back2{
+      background-image: linear-gradient(rgba(80, 35, 159, 0.6) , rgba(94, 39, 189, 0.7)) ,  url(../Images/los-angeles.jpeg) ;
+      height: 60px;
+      width: 100%;
+      background-size: cover;
+    background-position: center;
+
+}
+.back3{
+      background-image: linear-gradient(rgba(80, 35, 159, 0.6) , rgba(94, 39, 189, 0.7)) ,  url(../Images/miami.jpeg) ;
+      height: 60px;
+      width: 100%;
+      background-size: cover;
+    background-position: center;
+
+}
+
+.properities h5{
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+
+}
+
+.properities .types div{
+    font-size: 16px !important;
+}
+
+
+.properities .part4 .card1 h4 ,
+.properities .part4 .card2 h4 ,
+.properities .part4 .card3 h4{
+    font-size: 18px !important;
+}
+
+.properities .part4 .card1 p,
+.properities .part4 .card2 p,
+.properities .part4 .card3 p{
+    font-size: 16px !important;
+}
+
+.properities .part4 .card1 ,
+.properities .part4 .card2 ,
+.properities .part4 .card3 {
+     overflow: hidden;
+    background-image: 
+ radial-gradient(circle at top right, #F5F3FE 70px, transparent 50px);
+        
+position: relative;
+}
+
+/*   FAQ section    */
+
+.faq .menus{
+
+    width: 80%;
+
+}
+
+
+/* contact section */
+
+
+.contact {
+    overflow: hidden;
+    background-image: 
+        radial-gradient(circle at top right, #F5F3FE 250px, transparent 50px),
+        radial-gradient(circle at bottom left, #F8F3FF 230px, transparent 50px);
+position: relative;
+}
+
+.contact::before{
+    content: "";
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 5px solid var(--hover-color);
+    position: absolute;
+    top: 80px;
+    right: 110px;
+}
+
+.contact::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 5px solid #E9D4FF;
+    position: absolute;
+    bottom: 130px;
+    left: 110px;
+}
+
+/* footer */
+
+.footer .ftop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.properities .part2 .types{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.properities{
+    display: flex;
+    flex-direction: row !important;
+}
+
+
+}
