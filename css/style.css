@@ -138,8 +138,8 @@ nav a.active{
 }
 
 .dropdown-menu{
-    max-height: 400px !important;
-    overflow-y: auto !important;
+    max-height: 450px !important;
+    overflow: auto !important;
 }
 
 .properities .part4 .card1:hover h4{

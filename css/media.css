@@ -93,8 +93,8 @@ nav li a:hover::before{
 
     
     .static-item .dropdown-menu {
-        left: 0% !important;
-        right: 0 !important;
+        left: 2% !important;
+        right: 0% !important;
         width: 100% !important; 
         margin-top: 0;
         top: 100%;
